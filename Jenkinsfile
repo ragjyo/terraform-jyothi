@@ -16,11 +16,6 @@ pipeline {
         sh 'terraform validate'
       }   
     }
-    stage('Apply terraform') {
-      steps {
-        sh 'terraform apply -auto-approve'
-      }   
-    }
     stage('Terraform Destroy') {
       steps {
         sh 'Terraform Destroy'
