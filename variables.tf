@@ -23,10 +23,10 @@ variable "enable_dns_hostnames" {
 
 variable "created_by" {
     type = string
-    default = "siva"
+    default = "jyothi"
 }
 
 variable "Environment" {
     type = string
-    default = "dev"
+    default = "test"
 }
